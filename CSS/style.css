@@ -1,0 +1,234 @@
+body {
+ margin: 0;
+ font-family: "Libre Baskerville";
+ background: #fffdf9;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns:repeat(12, 1fr);
+  gap: 30px;
+}
+/* NAV */
+
+header {
+  padding: 20px 40px;
+  background: #FFFDF9;
+  align-items: center;
+}
+
+header h1 {
+  grid-column: span 6;
+  color: #0D2E6E;
+}
+header nav {
+  grid-column: span 6;
+  justify-self: end;
+}
+header nav a {
+color:#0D2E6E;
+margin-left: 10px;
+text-decoration: none;
+font-size: 20px;
+padding: 20px;
+}
+
+a:hover {
+  color:#ebca88;
+}
+/* HERO TEXT */
+main {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+main img {
+grid-column: span 12;
+}
+
+main .welcome {
+  grid-column: 1 / span 12;
+  color:#0D2E6E;
+  padding: 30px 90px;
+  background: #FFFDF9;
+}
+
+h2{
+  margin: auto;
+  width: 600px;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+p{
+  margin: auto;
+  width: 600px;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ /* ARROW IMAGE */
+
+ img {
+  padding: 2px;
+  text-align: right;
+ }
+ #right{
+  float: right;
+ }
+
+  /* DOWNLOAD CV BUTTON */
+.container {
+  padding-top: 30px;
+  position: relative;
+  width: 50%;
+}
+
+.container img {
+  padding-left: 200px;
+  width: 50%;
+  height: auto;
+}
+
+.button1 {
+  position: absolute;
+  top: 66%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFFDF9;
+  color: #0D2E6E;
+  font-size: 20px;
+  font-family: "poppins";
+  padding: 1px 1px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: #ECBC92;
+}
+
+/* PROJECT CARDS*/
+
+/* WASTENOT CARD*/
+.card1 {
+  grid-column: 1 / span 12;
+  color: #FFFDF9;
+  padding: 150px 90px;
+  background: #106DC1;
+  border-radius: 20px;
+  height: 260px;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: normal;
+  vertical-align: 20px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "poppins";
+  font-weight: normal;
+}
+#wastenot img {
+ width: 20%;
+ margin: right;
+ position: relative;
+ bottom: 325px;
+}
+
+#horizontalarrow img {
+  position: relative;
+  margin: right;
+  padding-left: 200px;
+}
+
+#viewcasestudy img {
+  position: relative;
+ bottom: 80px;
+ right: 25px;
+}
+
+.button2 {
+  position:absolute;
+  top: 105.5%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #106DC1;
+  color: #FFFDF9;
+  font-size: 20px;
+  font-family: "poppins";
+  padding: 1px 1px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button2:hover{
+  color: #ECBC92;
+}
+/*ILF CARD*/
+.card2 {
+  grid-column: 1 / span 12;
+  color: #FFFDF9;
+  padding: 150px 90px;
+  background: #106DC1;
+  border-radius: 20px;
+  height: 260px;
+}
+
+.card2 h2{
+  font-size: 60px;
+  font-weight: normal;
+  position: relative;
+  bottom: 90px;
+}
+
+.card2 h3 {
+  font-size: 25px;
+  font-family: "poppins";
+  font-weight: normal;
+  position: relative;
+  bottom: 90px
+}
+
+#ILF img {
+  width: 37.59%;
+  margin: right;
+  position: relative;
+  bottom: 551.5px;
+ }
+ #horizontalarrow img {
+  position: relative;
+  margin: right;
+  padding-left: 200px;
+}
+
+/*PACKT CARD*/
+
+/*CER CARD*/
+
+
+  /* FOOTER*/
+  .footer {
+    grid-column: span 12;
+    display: flex;
+    align-items: center;
+    background-color:#0D2E6E;
+    height: 100px;
+  }
+  
+  .footer a {
+    padding: 30px;
+    font-family: "Libre Baskerville";
+    text-decoration: none;
+    color: #FFFDF9;
+  }
+  a:hover {
+    color: #F5CCA2;
+  }
+
