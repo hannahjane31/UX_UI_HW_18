@@ -118,7 +118,7 @@ button:hover {
   grid-column: 1 / span 12;
   color: #FFFDF9;
   padding: 150px 90px;
-  background: #106DC1;
+  background: #72A8D7;
   border-radius: 20px;
   height: 260px;
 }
@@ -159,7 +159,7 @@ h3 {
   left: 63%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #106DC1;
+  background-color: #72A8D7;
   color: #FFFDF9;
   font-size: 20px;
   font-family: "poppins";
@@ -176,7 +176,7 @@ button2:hover{
   grid-column: 1 / span 12;
   color: #FFFDF9;
   padding: 150px 90px;
-  background: #106DC1;
+  background: #72A8D7;
   border-radius: 20px;
   height: 260px;
 }
